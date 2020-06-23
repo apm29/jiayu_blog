@@ -14,10 +14,7 @@ pipeline {
     }
     stage('install') {
       steps {
-//         sh 'git submodule init'
-//         sh 'git submodule update'
         sh 'npm install'
-        sh 'ls -l themes/archer/'
       }
     }
     stage('构建') {
