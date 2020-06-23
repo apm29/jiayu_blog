@@ -28,6 +28,7 @@ pipeline {
     stage('测试') {
       steps {
         sh 'ls -l'
+        sh 'cat public/index.html'
       }
     }
     stage('部署') {
