@@ -56,7 +56,7 @@ pipeline {
 
             sshRemove (remote: remoteConfig, path: '/home/nginx/www/public/')
             sshPut (remote: remoteConfig, from: './public/', into: '/home/nginx/www/')
-            sshCommand(remote:remoteConfig,command:'cp -r /home/nginx/www/public/* /home/nginx/www/public/')
+            sshCommand(remote:remoteConfig,command:'cp -r /home/nginx/www/public/* /home/nginx/www/')
 
           }
         }
