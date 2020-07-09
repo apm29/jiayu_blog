@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Tondu_Beta
+font link: https://www.fontspring.com/fonts/northern-block/tondu/tondu-beta
+font author: The Northern Block
+font author site: https://thenorthernblock.co.uk/
+Slogan Font: KaushanScript-Regular.ttf
+
+icon designer: Kultur Kreatur
+icon designer link: /kulturkreatur
+        
+{"bg-gradient-0":"#E90DCA","bg-gradient-1":"#1536F1","icon":"#ffffff","font":"#ffffff","slogan":"#ffffff"}
+      
