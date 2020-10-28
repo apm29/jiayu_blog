@@ -4,7 +4,6 @@ tags:
   - Android
   - Fragment
   - JetPack
-originContent: ''
 categories:
   - 笔记
 toc: false
@@ -43,7 +42,7 @@ ComponentActivity(相信现在大部分的App使用这个Activity的子类,例�
                     if(webView.canGoBack()){
                         webView.goBack()
                     }else{
- 			requireActivity().onBackPressedDispatcher.onBackPressed()
+ 			pop()
                     }
                 }
             }
